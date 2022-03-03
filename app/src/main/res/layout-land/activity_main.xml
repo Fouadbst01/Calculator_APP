@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityV2"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="#000000">
+
+    <TextView
+        android:id="@+id/res"
+        android:fontFamily="@font/montserrat_semibold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textColor="#ffffff"
+        android:textAlignment="textEnd"
+        android:textSize="60dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+            </TableRow>
+            <TableRow android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"/>
+            </TableRow>
+        </TableLayout>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+
+            android:shrinkColumns="*">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounded_shape"
+                    android:onClick="Reset"
+                    android:text="AC"
+                    android:textColor="#000000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounded_shape"
+                    android:onClick="changeSigne"
+                    android:text="+/-"
+                    android:textColor="#000000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/rounded_shape"
+                    android:onClick="ButtonClickValue"
+                    android:text="%"
+                    android:textColor="#000000" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/Btn"
+                    android:background="@drawable/round_orange"
+                    android:onClick="ButtonClickValue"
+                    android:text="÷" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num7"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="7" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num8"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="8" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num9"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="9" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/opx"
+                    style="@style/Btn"
+                    android:background="@drawable/round_orange"
+                    android:onClick="ButtonClickValue"
+                    android:text="x" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num4"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="4" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num5"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="5" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num6"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="6" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/opmin"
+                    style="@style/Btn"
+                    android:background="@drawable/round_orange"
+                    android:onClick="ButtonClickValue"
+                    android:text="-" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingVertical="5dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num1"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="1" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num2"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="2" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num3"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="3" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/opplus"
+                    style="@style/Btn"
+                    android:background="@drawable/round_orange"
+                    android:onClick="ButtonClickValue"
+                    android:text="+" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/num0"
+                    style="@style/Btn"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="ButtonClickValue"
+                    android:text="0" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/opvir"
+                    style="@style/Btn"
+                    android:background="@drawable/rounde_gray"
+                    android:onClick="Reverse"
+                    android:text="," />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/opeq"
+                    style="@style/Btn"
+                    android:background="@drawable/round_orange"
+                    android:onClick="Calculate"
+                    android:text="=" />
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

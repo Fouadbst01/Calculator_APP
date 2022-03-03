@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Btn">
+        <item name="android:minWidth">58dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_marginHorizontal">2dp</item>
+    </style>
+    <style name="BtnN">
+        <item name="android:minWidth">80dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/montserrat_semibold</item>
+        <item name="android:textSize">25dp</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_marginHorizontal">1dp</item>
+    </style>
+</resources>
